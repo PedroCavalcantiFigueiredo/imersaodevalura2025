@@ -19,9 +19,6 @@ Foi desenvolvido durante a Imersão Dev da Alura 2024.
 
 A aplicação apresenta uma interface com um campo de busca central. O usuário pode digitar qualquer termo relacionado a uma música (nome, artista, gênero, etc.), e a aplicação filtrará o catálogo, exibindo os resultados correspondentes. Cada resultado inclui o nome da música, o artista, uma breve descrição e um link para ouvi-la no YouTube.
 
-![Captura de tela da aplicação Músicas.net](https://via.placeholder.com/800x450.png?text=Insira+um+screenshot+do+projeto+aqui)
-*(Sugestão: substitua o link acima por uma captura de tela real do seu projeto)*
-
 ## 🚀 Funcionalidades
 
 -   **Busca Dinâmica:** Pesquise em todo o catálogo de músicas por nome, artista, descrição e tags.
