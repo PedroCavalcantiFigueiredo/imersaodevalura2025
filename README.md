@@ -62,50 +62,48 @@ O arquivo `dados.js` atua como o banco de dados da aplicação. Ele contém um �
 ## Lógica da Aplicação (app.js)
 A interatividade é controlada pelo arquivo app.js. A função principal é a pesquisar():
 
-Captura do Input: A função é acionada pelo clique no botão "Pesquisar". Ela obtém o valor digitado no campo de pesquisa (id="campo-pesquisa") e o converte para letras minúsculas para garantir uma busca case-insensitive.
+- Captura do Input: A função é acionada pelo clique no botão "Pesquisar". Ela obtém o valor digitado no campo de pesquisa (id="campo-pesquisa") e o converte para letras minúsculas para garantir uma busca case-insensitive.
 
-Validação: Verifica se o campo de pesquisa não está vazio.
+- Validação: Verifica se o campo de pesquisa não está vazio.
 
-Iteração e Filtragem: A função itera sobre cada objeto no array dados. Para cada música, ela compara o termo de pesquisa com os valores das chaves nome, artista, descricao, link, imagem e tags.
+- Iteração e Filtragem: A função itera sobre cada objeto no array dados. Para cada música, ela compara o termo de pesquisa com os valores das chaves nome, artista, descricao, link, imagem e tags.
 
-Renderização Dinâmica: Se uma correspondência for encontrada, um bloco HTML é gerado dinamicamente com as informações da música e concatenado a uma variável de resultados.
+- Renderização Dinâmica: Se uma correspondência for encontrada, um bloco HTML é gerado dinamicamente com as informações da música e concatenado a uma variável de resultados.
 
-Exibição no DOM: Ao final do loop, o conteúdo da seção de resultados (id="resultados-pesquisa") é substituído pelo HTML gerado. Caso nenhum resultado seja encontrado, uma mensagem informativa é exibida.
+- Exibição no DOM: Ao final do loop, o conteúdo da seção de resultados (id="resultados-pesquisa") é substituído pelo HTML gerado. Caso nenhum resultado seja encontrado, uma mensagem informativa é exibida.
 
 ## Estilização (style.css)
 O style.css é responsável por toda a aparência visual da aplicação.
 
-Layout: Utiliza display: flex no body para centralizar todo o conteúdo vertical e horizontalmente na página.
+- Layout: Utiliza display: flex no body para centralizar todo o conteúdo vertical e horizontalmente na página.
 
-Fonte: A fonte Chakra Petch é importada do Google Fonts para dar uma identidade visual única ao projeto.
+- Fonte: A fonte Chakra Petch é importada do Google Fonts para dar uma identidade visual única ao projeto.
 
-Responsividade: @media queries são usadas para ajustar o tamanho das fontes, larguras dos inputs e da área de resultados para telas menores, como tablets (max-width: 768px) e celulares (max-width: 480px).
+- Responsividade: @media queries são usadas para ajustar o tamanho das fontes, larguras dos inputs e da área de resultados para telas menores, como tablets (max-width: 768px) e celulares (max-width: 480px).
 
-Efeitos Visuais: Efeitos sutis de hover são aplicados aos botões e links para melhorar a interatividade e o feedback visual para o usuário.
+- Efeitos Visuais: Efeitos sutis de hover são aplicados aos botões e links para melhorar a interatividade e o feedback visual para o usuário.
 
 ##🚀 Como Executar
 Para executar este projeto localmente, siga os passos abaixo:
 
-Clone o repositório:
-
+- Clone o repositório:
 Bash
-
 git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
-Navegue até o diretório do projeto:
 
+- Navegue até o diretório do projeto:
 Bash
-
 cd nome-do-repositorio
-Abra o arquivo index.html:
+
+- Abra o arquivo index.html:
 
 Não é necessário um servidor web. Basta abrir o arquivo index.html diretamente em seu navegador de preferência (Google Chrome, Firefox, etc.).
 
 ## 📁 Estrutura dos Arquivos
 .
-├── 📄 index.html      # Arquivo principal com a estrutura da página
-├── 🎨 style.css       # Folha de estilos para a aplicação
-├── 🧠 app.js         # Lógica principal da aplicação (função de pesquisa)
-└── 🎵 dados.js        # Banco de dados com o catálogo de músicas
+- ├── 📄 index.html      # Arquivo principal com a estrutura da página
+- ├── 🎨 style.css       # Folha de estilos para a aplicação
+- ├── 🧠 app.js         # Lógica principal da aplicação (função de pesquisa)
+- └── 🎵 dados.js        # Banco de dados com o catálogo de músicas
 ## 📬 Contato
 Desenvolvido por Pedro – pedraions@gmail.com
 
