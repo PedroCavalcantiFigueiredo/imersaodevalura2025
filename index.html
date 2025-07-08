@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicas.net</title>
+</head>
+<body>
+    <header>
+        <h1>Músicas.net</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Pesquise as músicas</h2>
+            <input type="text" id="campo-pesquisa" placeholder="Digite o nome da música...">
+            <button id="searchButton" onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <ul id="lista-musicas">
+                <!-- As músicas serão inseridas aqui dinamicamente -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Músicas. Todos os direitos reservados.</p>
+        <p>Entre em contato pelo email: pedraions@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
