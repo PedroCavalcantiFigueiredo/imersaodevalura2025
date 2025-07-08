@@ -1,5 +1,7 @@
 # Músicas.net
 
+- https://imersaodevalura2025.vercel.app/
+
 `Músicas.net` é uma aplicação web front-end simples e elegante que funciona como um motor de busca para um catálogo de músicas. O projeto permite aos usuários pesquisar dinamicamente em uma lista predefinida de canções e visualizar os resultados em tempo real. A interface é limpa, responsiva e focada na experiência do usuário.
 Foi desenvolvido durante a Imersão Dev da Alura 2024.
 ## 📋 Índice
